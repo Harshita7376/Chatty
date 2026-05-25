@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartedPage"
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:src="@drawable/icon2"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="100dp"
+    ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO CHATTY"
+        android:textSize="35sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="90sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy the new experience of chatting with global friends"
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/light_blue"
+        android:layout_marginTop="15sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Login with Email"
+        android:gravity="center"
+        android:background="@drawable/fame"
+        android:backgroundTint="@color/babypink"
+        android:textColor="@color/dark_blue"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="Get_started"
+        android:id="@+id/getstart">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/signUp"></TextView>
+
+</LinearLayout>
